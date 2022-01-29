@@ -1,0 +1,65 @@
+#background {
+  height: 725px;
+}
+
+#content {
+  margin: 0 auto;
+}
+
+div {
+  max-width: 1600px;
+  text-align: center;
+}
+
+body {
+  background-color: #fcfbfb;
+}
+header {
+  background-color: rgba(20, 30, 13, 0.7);
+}
+nav a:hover {
+  background-color: black;
+  color: #d9c2a3;
+  text-decoration: none;
+}
+
+main section {
+  text-align: center;
+}
+
+.icon {
+  width: 80px;
+}
+
+nav a {
+  text-align: center;
+  color: #fcfbfb;
+  text-decoration: none;
+}
+
+footer {
+  background-color: rgba(20, 30, 13, 0.7);
+}
+
+a:hover {
+  background-color: black;
+  color: #d9c2a3;
+  text-decoration: none;
+}
+
+.book {
+  color: black;
+  background-color: #d9c2a3;
+  text-decoration: none;
+}
+
+.join {
+  color: black;
+  background-color: #d9c2a3;
+  text-decoration: none;
+}
+
+footer a {
+  color: #d9c2a3;
+  text-decoration: none;
+}
