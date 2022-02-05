@@ -2,11 +2,13 @@
 
 #background {
   height: 725px;
+  background-color: #fcfbfb;
 }
 
 .home-title {
   font-family: "Mochiy Pop P One";
   font-size: 2em;
+  margin-top: 10px;
 }
 
 .msg h2 {
@@ -23,6 +25,10 @@ div {
 
 body {
   background-color: #fcfbfb;
+  font-family: Raleway, Arial, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
 header {
   background-color: rgba(20, 30, 13, 0.7);
@@ -42,33 +48,37 @@ main section {
 }
 
 nav a {
-  text-align: center;
-  color: #fcfbfb;
   text-decoration: none;
+  color: #fcfbfb;
+  text-align: center;
+  padding: 35px;
 }
 
 footer {
   background-color: rgba(20, 30, 13, 0.7);
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 
 a:hover {
   background-color: black;
   color: #d9c2a3;
-  text-decoration: none;
 }
 
-.book {
-  color: black;
-  background-color: #d9c2a3;
-  text-decoration: none;
-  font-size: 18px;
-}
-
+.book,
 .join {
-  color: black;
   background-color: #d9c2a3;
+  color: black;
   text-decoration: none;
   font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.book:hover,
+.join:hover {
+  color: #d9c2a3;
 }
 
 footer a {
@@ -76,6 +86,9 @@ footer a {
   text-decoration: none;
 }
 
+#hero-img {
+  width: 100%;
+}
 #hero-msg h1 {
   text-align: center;
 }
@@ -90,13 +103,41 @@ footer a {
 
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 
 .msg p {
   font-size: 0.8em;
+  padding-bottom: 15px;
 }
 
 .msg {
   background-color: #6f7364;
   line-height: 1.5em;
+  padding: 35px;
+}
+
+h2 {
+  margin: 0;
+}
+
+#logo_link {
+  padding: 5px;
+}
+
+footer .social img {
+  padding-top: 15px;
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+  margin: 200px 0;
+}
+
+.card-img {
+  border: 10px solid #d9c2a3;
+}
+main section img {
+  box-sizing: border-box;
 }
