@@ -1,5 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Noto+Serif:ital@1&display=swap");
+
 #background {
   height: 725px;
+}
+
+.home-title {
+  font-family: "Mochiy Pop P One";
+  font-size: 2em;
+}
+
+.msg h2 {
+  font-family: "Mochiy Pop P One";
 }
 
 #content {
@@ -50,12 +61,14 @@ a:hover {
   color: black;
   background-color: #d9c2a3;
   text-decoration: none;
+  font-size: 18px;
 }
 
 .join {
   color: black;
   background-color: #d9c2a3;
   text-decoration: none;
+  font-size: 18px;
 }
 
 footer a {
@@ -77,4 +90,13 @@ footer a {
 
 .icon {
   width: 80px;
+}
+
+.msg p {
+  font-size: 0.8em;
+}
+
+.msg {
+  background-color: #6f7364;
+  line-height: 1.5em;
 }
