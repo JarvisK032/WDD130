@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Noto+Serif:ital@1&display=swap");
+
+main {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+#background {
+  height: 725px;
+  background-color: #fcfbfb;
+  grid-column: 1/11;
+  grid-row: 4/9;
+}
+
+.home-title {
+  font-family: "Mochiy Pop P One";
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+#content {
+  margin: 0 auto;
+}
+
+div {
+  max-width: 1600px;
+}
+
+body {
+  background-color: #fcfbfb;
+  font-family: Raleway, Arial, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #03071e;
+  display: grid;
+  grid-template-columns: 150px auto;
+}
+nav a:hover {
+  background-color: black;
+  color: #d9c2a3;
+  text-decoration: none;
+}
+
+main section {
+  text-align: center;
+}
+
+.logo {
+  width: 80px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fcfbfb;
+  text-align: center;
+  padding: 35px;
+}
+
+footer {
+  background-color: #e85d04;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a:hover {
+  background-color: black;
+  color: #d9c2a3;
+}
+
+footer a {
+  color: #d9c2a3;
+  text-decoration: none;
+}
+
+.icon {
+  width: 80px;
+  padding-top: 10px;
+}
+
+.msg {
+  background-color: #faa307;
+  padding: 20px;
+  margin: 5%;
+  box-shadow: 5px 5px 10px #6f7364;
+  font-size: 20px;
+}
+
+#logo_link {
+  padding: 5px;
+}
+
+footer .social img {
+  padding-top: 15px;
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+  margin: 200px 0;
+}
+
+.card-img {
+  border: 10px solid #d00000;
+  transition: transform 0.5s;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+
+main section img {
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+#logo_link {
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
+}
+
+.card-img {
+  width: 100%;
+  height: 80%;
+}
+
+.first-movie {
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
+
+.second-movie {
+  grid-column: 5/7;
+  grid-row: 1/2;
+}
+
+.thrid-movie {
+  grid-column: 8/10;
+  grid-row: 1/2;
+}
+
+.first-tv {
+  grid-column: 2/4;
+  grid-row: 4/5;
+}
+
+.second-tv {
+  grid-column: 5/7;
+  grid-row: 4/5;
+}
+
+.thrid-tv {
+  grid-column: 8/10;
+  grid-row: 4/5;
+}
+
+.card-img:hover {
+  opacity: 0.6;
+  transform: scale(1.1);
+}
+
+#hero-msg {
+  text-align: center;
+  color: black;
+}
