@@ -85,9 +85,9 @@ footer a {
 .msg {
   background-color: #faa307;
   padding: 20px;
-  margin: 5%;
+  margin: 2%;
   box-shadow: 5px 5px 10px #6f7364;
-  font-size: 20px;
+  font-size: 80%;
 }
 
 #logo_link {
