@@ -169,3 +169,34 @@ nav {
   text-align: center;
   color: black;
 }
+
+.first {
+  grid-column: 3/5;
+  grid-row: 1/2;
+}
+
+.second {
+  grid-column: 7/9;
+  grid-row: 1/2;
+}
+
+.thrid {
+  grid-column: 2/4;
+  grid-row: 4/5;
+}
+
+.fourth {
+  grid-column: 5/7;
+  grid-row: 4/5;
+}
+
+.fifth {
+  grid-column: 8/10;
+  grid-row: 4/5;
+}
+
+.num {
+  background-color: #faa307;
+  box-shadow: 5px 5px 10px #6f7364;
+  font-size: 80%;
+}
