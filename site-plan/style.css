@@ -200,3 +200,7 @@ nav {
   grid-column: 4/8;
   grid-row: 3/4;
 }
+
+.checked {
+  color: orange;
+}
